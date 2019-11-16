@@ -2,14 +2,15 @@ import React from 'react'
 import { Layout, SEO } from 'components/common'
 import { Intro, Skills, Contact, Projects } from 'components/landing'
 import diagramImg from 'assets/TelosDreamStackFull.png'
+import { Container } from 'components/common'
 
 export default () => (
   <Layout>
     <SEO />
     <Intro />
-    <div style={{textAlign: 'center'}}>
+    <Container>
       <img src={diagramImg} alt="" />
-    </div>
+    </Container>
     <Projects />
     <Skills />
     {/* <Contact /> */}
