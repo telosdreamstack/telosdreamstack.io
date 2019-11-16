@@ -6,7 +6,7 @@ module.exports = {
 	legalName: 'Telos DreamStack',
 	defaultDescription: 'Jumpstart dApp development.',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/telosdreamstack',
+		twitter: 'http://www.twitter.com/blockmatic',
 		github: 'https://github.com/telosdreamstack'
 	},
 	googleAnalyticsID: '',
@@ -26,6 +26,6 @@ module.exports = {
 		email: 'email',
 		phone: 'phone number'
 	},
-	foundingDate: '2019',
+	foundingDate: '2018',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
 };

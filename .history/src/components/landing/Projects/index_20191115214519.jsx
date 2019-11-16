@@ -8,8 +8,10 @@ import { Wrapper, Grid, Item, Content, Stats } from './styles'
 export const Projects = () => {
   const {
     github: {
-      search: { edges },
-    }
+      viewer: {
+        repositories: { edges },
+      },
+    },
   } = useStaticQuery(
     graphql`
 {
@@ -33,6 +35,7 @@ export const Projects = () => {
     }
   }
 }
+
     `
   )
   return (

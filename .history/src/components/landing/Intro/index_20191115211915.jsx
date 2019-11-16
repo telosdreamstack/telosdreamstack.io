@@ -10,14 +10,14 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>The TELOS DreamStack</h1>
-				<h4>A collection of guidelines, conventions, tools and starters for dApp development.</h4>
+				<h1>Hi There!</h1>
+				<h4>I’m John and I’m a Backend & Devops engineer!</h4>
 				<Button as={AnchorLink} href="#contact">
-					Get Started
+					Hire me
 				</Button>
 			</Details>
 			<Thumbnail>
-				<img src={dev} alt="Telos DreamStack" />
+				<img height='50vh' src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
 			</Thumbnail>
 		</IntroWrapper>
 	</Wrapper>

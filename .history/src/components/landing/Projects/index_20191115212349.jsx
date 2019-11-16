@@ -8,18 +8,22 @@ import { Wrapper, Grid, Item, Content, Stats } from './styles'
 export const Projects = () => {
   const {
     github: {
-      search: { edges },
-    }
+      viewer: {
+        repositories: { edges },
+      },
+    },
   } = useStaticQuery(
     graphql`
-{
-  github {
-    search(query: "org:telosdreamstack", type: REPOSITORY, first: 10) {
-      repositoryCount
-      edges {
-        node {
-          ... on GitHub_Repository {
-             id
+      {
+        github {
+          viewer {
+            repositories(
+              first: 20
+              orderBy: { field: STARGAZERS, direction: DESC }
+            ) {
+              edges {
+                node {
+                  id
                   name
                   url
                   description
@@ -27,12 +31,12 @@ export const Projects = () => {
                     totalCount
                   }
                   forkCount
+                }
+              }
+            }
           }
         }
       }
-    }
-  }
-}
     `
   )
   return (

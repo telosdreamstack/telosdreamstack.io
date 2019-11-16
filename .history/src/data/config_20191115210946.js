@@ -1,12 +1,12 @@
 module.exports = {
 	defaultTitle: 'The TELOS DreamStack Project',
 	logo: 'https://telosdreamstack.netlify.com/favicon/favicon-512.png',
-	author: 'Telos DreamStack',
+	author: 'Blockmatiic',
 	url: 'https://telosdreamstack.netlify.com',
-	legalName: 'Telos DreamStack',
+	legalName: 'Blockmatiic',
 	defaultDescription: 'Jumpstart dApp development.',
 	socialLinks: {
-		twitter: 'http://www.twitter.com/telosdreamstack',
+		twitter: 'http://www.twitter.com/blockmatic',
 		github: 'https://github.com/telosdreamstack'
 	},
 	googleAnalyticsID: '',
@@ -26,6 +26,6 @@ module.exports = {
 		email: 'email',
 		phone: 'phone number'
 	},
-	foundingDate: '2019',
+	foundingDate: '2018',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN'
 };

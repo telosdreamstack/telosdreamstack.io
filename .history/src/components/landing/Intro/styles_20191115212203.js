@@ -39,7 +39,7 @@ export const Details = styled.div`
 
 	h4 {
 		margin-bottom: 2.5rem;
-		font-size: 26pt;
+		font-size: 32pt;
 		font-weight: normal;
 		color: #707070;
 
@@ -58,6 +58,5 @@ export const Thumbnail = styled.div`
 
 	img {
 		height: 70vh;
-		float: right;
 	}
 `;

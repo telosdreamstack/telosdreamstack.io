@@ -8,12 +8,13 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="" />
+        <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
       </Thumbnail>
       <Details>
         <h1>Hi There!</h1>
         <p>
-        The TELOS DreamStack Project provides set of principles, guidelines, tools, packages and starters to jumpstart and speed up dApp development following best practices for security, performance and maintainability of your application.
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry’s standard dummy.
         </p>
         <Button as={AnchorLink} href="#contact">
           Hire me
