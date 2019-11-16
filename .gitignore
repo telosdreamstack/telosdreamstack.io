@@ -58,7 +58,7 @@ typings/
 
 # gatsby files
 .cache/
-public
+# public   --- gatbsy build is failing
 
 # Mac files
 .DS_Store
