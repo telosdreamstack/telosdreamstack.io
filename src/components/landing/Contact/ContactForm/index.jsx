@@ -82,7 +82,7 @@ const ContactForm = ({
 		)}
 		<Center>
 			<Button secondary type="submit" disabled={isSubmitting}>
-				Submit
+				Contact Blockmatic
 			</Button>
 		</Center>
 	</Form>

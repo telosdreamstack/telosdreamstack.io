@@ -16,7 +16,7 @@ export const Skills = () => (
         The TELOS DreamStack Project provides set of principles, guidelines, tools, packages and starters to jumpstart and speed up dApp development following best practices for security, performance and maintainability of your application.
         </p>
         <Button as={AnchorLink} href="#contact">
-          Hire me
+          Learn More
         </Button>
       </Details>
     </SkillsWrapper>

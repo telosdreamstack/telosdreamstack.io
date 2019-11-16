@@ -8,11 +8,13 @@ import { Wrapper, Grid, Item, Content, Stats } from './styles'
 export const Projects = () => {
   const {
     github: {
-      search: { edges },
-    }
+      search: {
+         edges
+      },
+    },
   } = useStaticQuery(
     graphql`
-{
+      {
   github {
     search(query: "org:telosdreamstack", type: REPOSITORY, first: 10) {
       repositoryCount
