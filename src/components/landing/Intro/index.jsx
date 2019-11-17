@@ -11,7 +11,7 @@ export const Intro = () => (
 		<IntroWrapper as={Container}>
 			<Details>
 				<h1>The TELOS DreamStack</h1>
-				<h4>A collection of guidelines, conventions, tools and starters for dApp development.</h4>
+				<h4>Jumpstart dApp development following best practices and conventions.</h4>
 				<Button as={AnchorLink} href="#contact">
 					Get Started
 				</Button>
