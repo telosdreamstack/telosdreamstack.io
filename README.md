@@ -1,8 +1,25 @@
+<p align="center">
+	</a>
+	<a href="https://git.io/col">
+		<img src="https://img.shields.io/badge/%E2%9C%93-collaborative_etiquette-brightgreen.svg" alt="Collaborative Etiquette">
+	</a>
+  <a href="https://developers.blockmatic.io">
+		<img src="https://img.shields.io/badge/code%20style-blockmatic-brightgreen.svg" alt="Blockmatic Standard">
+	</a>
+	<img src="https://img.shields.io/dub/l/vibe-d.svg" alt="MIT" />
+	<a href="https://twitter.com/intent/follow?screen_name=telosdreamstack">
+		<img src="https://img.shields.io/twitter/follow/telosdreamstack.svg?style=social&logo=twitter" alt="Follow on Twitter" />
+	</a>
+	<a href="https://t.me/blockmatic">
+		<img src="https://img.shields.io/badge/-Chat%20on%20Telegram-blue?style=social&logo=telegram" alt="Chat on Telegram">
+	</a>
+</p>
+
 # TELOS DreamStack Website
 
 TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application. 
 
-## Structure
+## Website File Structure
 
 ```bash
 .
