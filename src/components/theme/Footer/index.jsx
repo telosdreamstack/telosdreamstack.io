@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'components/common'
 import { Wrapper, Flex, Links, Details } from './styles'
-import social from './social.json'
+import social from './social'
 
 export const Footer = () => (
 	<Wrapper>
@@ -31,6 +31,10 @@ export const Footer = () => (
 						target="_blank"
 						rel="noopener noreferrer"
 						aria-label={`follow me on ${name}`}
+						style={{
+							marginLeft: 20,
+							display: 'inline-block'
+						}}
 					>
 						<img width="24" src={icon} alt={name} />
 					</a>

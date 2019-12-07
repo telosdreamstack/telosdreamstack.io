@@ -16,7 +16,7 @@ export const Projects = () => {
     graphql`
       {
   github {
-    search(query: "org:telosdreamstack", type: REPOSITORY, first: 10) {
+    search(query: "org:telosdreamstack", type: REPOSITORY, first: 20) {
       repositoryCount
       edges {
         node {
