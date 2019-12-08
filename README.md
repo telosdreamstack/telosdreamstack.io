@@ -19,6 +19,12 @@
 
 TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application. 
 
+## TELOS
+
+Best in class C++ EOSIO protocol technology providing fast, scalable and eco-freindly blockchain augmented by a growing library of Telos services and innovations. Free accounts, work proposals, dapp grants, decentralized exchange, dstor, bancor protocol, telos community and foundation.
+
+[Learn more](https://docs.telosdreamstack.io/smart-contracts/telos-blockchain)
+
 ## Website File Structure
 
 ```bash
