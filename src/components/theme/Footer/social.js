@@ -6,7 +6,7 @@ export default [
 	{
 		"id": 0,
 		"name": "Telegram",
-		"link": "https://t.me/blockmatic",
+		"link": "https://t.me/telosdreamstack",
 		"icon": TelegramIcon
 	},
 	{

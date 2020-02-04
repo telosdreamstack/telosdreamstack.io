@@ -2,7 +2,7 @@ module.exports = {
 	defaultTitle: 'The TELOS DreamStack Project',
 	logo: 'https://telosdreamstack.netlify.com/favicon/favicon-512.png',
 	author: 'Telos DreamStack',
-	url: 'https://telosdreamstack.netlify.com',
+	url: 'https://telosdreamstack.io',
 	legalName: 'Telos DreamStack',
 	defaultDescription: 'Jumpstart dApp development.',
 	socialLinks: {
