@@ -16,7 +16,7 @@ export default {
       maxWidth: 1150,
       mx: 'auto',
       overflow: 'hidden',
-      px: 1,
+      px: 2,
     },
     blogContainer: {
       maxWidth: 800,
