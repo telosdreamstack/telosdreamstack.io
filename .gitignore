@@ -17,6 +17,10 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# VSCode
+.history/
+.cache/
+
 # nyc test coverage
 .nyc_output
 
@@ -51,14 +55,12 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variables file
-.env
-.env.development
-.env.production
+# dotenv environment variable files
+.env*
 
 # gatsby files
 .cache/
-# public   --- gatbsy build is failing
+public
 
 # Mac files
 .DS_Store
@@ -69,6 +71,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-.history
-# Local Netlify folder
-.netlify
+
+
+public/

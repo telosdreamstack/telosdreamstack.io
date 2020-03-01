@@ -16,7 +16,7 @@
 
 # TELOS DreamStack Website
 
-TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application. 
+TELOS DreamStack Project which provides set of guidelines, tools and starters to speed up dApp development while following best practices for security, performance and maintainability of your application.
 
 ## TELOS
 
@@ -24,83 +24,13 @@ Best in class C++ EOSIO protocol technology providing fast, scalable and eco-fre
 
 [Learn more](https://docs.telosdreamstack.io/smart-contracts/telos-blockchain)
 
-## Website File Structure
+## Gatsby
 
-```bash
-.
-├── data
-│   └── config              # SEO related tags
-├── src
-│   └── assets              # Assets
-│   │   │── icons             # icons
-│   │   │── illustrations     # illustrations from (undraw.co)
-│   │   └── thumbnail         # cover of your website when it's shared to social media
-│   ├── components          # Components
-│   │   │── common            # Common components
-│   │   │── landing           # Components used on the landing page
-│   │   └── theme             # Header & Footer
-│   └── pages               # Pages
-└── static                  # favicon & Netlify redirects
-```
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
 
-## Prerequisites
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
-[Yarn](https://yarnpkg.com/en/)
-
-Please create a new file `.env.development` and put this env variable with your GitHub token
-
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
-
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
-```
-
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
-
-When deploying on Netlify, you will have to set the private key as well
-
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
-
-SITE_RECAPTCHA_SECRET=xxxxx
-```
-
-I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
-
-## Installing
-
-Installing the dependencies
-
-```bash
-yarn
-```
-
-## Start the dev server
-
-```bash
-yarn start
-```
-
-### Clean the cache
-
-This removes the `.cache/` & `public/` folders
-
-```bash
-yarn reset
-```
-
-## Built with
-
-- Adobe XD
-- Gatsby
-- React & GraphQL
-- VSCode
-- And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
-
-## Credits
-
-https://www.gatsbyjs.org/starters/smakosh/gatsby-portfolio-dev/
-
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## Blockmatic
 
@@ -121,16 +51,15 @@ Blockmatic is building robust ecosystem of people and tools for development of b
 
 <!-- icons with padding -->
 
-[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
-[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
-[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+[1.1]: http://i.imgur.com/tXSoThF.png 'twitter icon with padding'
+[2.1]: http://i.imgur.com/P3YfQoD.png 'facebook icon with padding'
+[3.1]: http://i.imgur.com/0o48UoR.png 'github icon with padding'
 
 <!-- icons without padding -->
 
-[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
-[2.2]: http://i.imgur.com/fep1WsG.png (facebook icon without padding)
-[3.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
-
+[1.2]: http://i.imgur.com/wWzX9uB.png 'twitter icon without padding'
+[2.2]: http://i.imgur.com/fep1WsG.png 'facebook icon without padding'
+[3.2]: http://i.imgur.com/9I6NRUm.png 'github icon without padding'
 
 <!-- links to your social media accounts -->
 <!-- update these accordingly -->
@@ -140,5 +69,3 @@ Blockmatic is building robust ecosystem of people and tools for development of b
 [3]: http://www.github.com/blockmatic
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
-
-
