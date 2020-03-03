@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Neue Haas Grotesk Roman";
+  src: url("NeueHaasDisplay-Roman.woff");
+}
+
+@font-face {
+  font-family: "Neue Haas Grotesk Ligth";
+  src: url("NeueHaasDisplay-Light.woff");
+}
