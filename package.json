@@ -15,6 +15,8 @@
     "test": "echo no tests"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^1.5.7",
+    "@mdx-js/react": "^1.5.7",
     "@rehooks/window-scroll-position": "^1.0.1",
     "add": "^2.0.6",
     "gatsby": "^2.19.7",
@@ -22,11 +24,12 @@
     "gatsby-plugin-feed": "^2.3.27",
     "gatsby-plugin-google-analytics": "^2.1.36",
     "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-mdx": "^1.0.74",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-preload-fonts": "^1.0.27",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-plugin-smoothscroll": "^1.0.4",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",

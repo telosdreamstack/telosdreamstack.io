@@ -9,7 +9,7 @@ const Technology = () => (
   <Layout>
     <SEO title="Technology" />
 
-    <Flex id="hero" sx={{ justifyContent: 'center' }}>
+    <Flex id="hero" sx={{ justifyContent: 'center', paddingTop: 3 }}>
       <Diagram height="auto" width="100%" />
     </Flex>
   </Layout>

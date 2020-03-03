@@ -1,37 +1,30 @@
 /** @jsx jsx */
 import { jsx, Flex, Box, Styled } from 'theme-ui'
-import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
-
+import useMedia from 'use-media'
 import Layout from '../layout'
 import SEO from '../components/seo'
 
+import Illustration from '../../content/assets/landing-page.svg'
+
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      file: file(relativePath: { regex: "/telosdreamstack-landing.png/" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
+  const isWide = useMedia({ minWidth: '650px' }, false)
   return (
     <Layout>
       <SEO title="Home" />
 
-      <Flex>
-        <Box sx={{ width: '45%', paddingLeft: '5%' }}>
-          <Img fadeIn={false} fluid={data.file.childImageSharp.fluid} />
+      <Flex sx={{ flexDirection: isWide ? 'row' : 'column', paddingTop: isWide ? 0 : 2}}>
+
+        <Box sx={{ width: isWide ? '45%' : '100%', paddingLeft: '5%'}}>
+          <Illustration width="100%"/>
         </Box>
+
         <Flex
           sx={{
             justifyContent: 'center',
             flexDirection: 'column',
             paddingLeft: '5%',
-            width: '55%',
+            width: isWide ? '55%' : '100%',
+            textAlign: isWide ? 'left' : 'center',
           }}
         >
           <Styled.h1
@@ -39,7 +32,7 @@ const IndexPage = () => {
           >
             The Telos DreamStack
           </Styled.h1>
-          <p sx={{ textAlign: 'right', fontSize: '2em' }}>
+          <p sx={{ textAlign: isWide ? 'right' : 'center', fontSize: '2em' }}>
             A fullstack development framework for real-time applications.
           </p>
         </Flex>

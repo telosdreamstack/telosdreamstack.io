@@ -43,7 +43,7 @@ const TopNav = () => {
   //   setSticky(windowPosition.y > 0)
   // },[windowPosition])
   const [openMenu, setOpenMenu] = useState(false)
-  const isWide = useMedia({ minWidth: '900px' })
+  const isWide = useMedia({ minWidth: '900px' }, false)
   const data = useStaticQuery(graphql`
     query {
       file: file(relativePath: { regex: "/telosdreamstack-logo.png/" }) {
@@ -71,10 +71,11 @@ const TopNav = () => {
           <Box
             sx={{
               position: 'absolute',
-              top: '1em',
-              right: '1em',
               zIndex: 999999,
               cursor: 'pointer',
+              right: 1,
+              top: 2,
+              display: isWide ? 'none' : 'block',
             }}
           >
             {openMenu ? (
@@ -171,7 +172,11 @@ const TopNav = () => {
             }}
           >
             <Link to="/">
-              <Img fadeIn={false} fixed={data.file.childImageSharp.fixed} />
+              <Img
+                critical
+                fadeIn={false}
+                fixed={data.file.childImageSharp.fixed}
+              />
               <span
                 sx={{
                   position: 'absolute',

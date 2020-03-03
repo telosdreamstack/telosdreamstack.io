@@ -2,7 +2,6 @@
 import React from 'react'
 import { jsx, Styled } from 'theme-ui'
 import { Global, css } from '@emotion/core'
-
 import TopNav from './topnav'
 import Footer from './footer'
 
@@ -22,6 +21,13 @@ const Layout = ({ children }) => (
           ul,
           li {
             line-height: 1.8em;
+          }
+          article a,
+          article a:active,
+          article a:visited,
+          article a:hover {
+            color: #55c3b3 !important;
+            text-decoration: none;
           }
         `
       }}
