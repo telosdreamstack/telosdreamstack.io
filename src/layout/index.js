@@ -4,9 +4,18 @@ import { jsx, Styled } from 'theme-ui'
 import { Global, css } from '@emotion/core'
 import TopNav from './topnav'
 import Footer from './footer'
+import Helmet from 'react-helmet'
 
 const Layout = ({ children }) => (
   <React.Fragment>
+    <Helmet
+      meta={[
+        {
+          property: 'og:image',
+          content: 'https://telosdreamstack.io/images/telosdreamstack-logo.png',
+        },
+      ]}
+    />
     <Global
       styles={theme => {
         return css`

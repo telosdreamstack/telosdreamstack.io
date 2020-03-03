@@ -1,5 +1,5 @@
 ---
-title: Introducting the TELOS DreamStack
+title: Introducting the Telos DreamStack
 date: '2020-03-01'
 description: 'Get faster time to market and better user experiences with a fullstack framework for developing real-time blockchain applications.'
 author: Gabo Esquivel
@@ -9,7 +9,7 @@ site: https://gaboesquivel.com/bio
 
 <img src="mobile-starter.png" />
 
-In December 2019, Blockmatic with the sponsorship of CSX and Bitcash started to work on the Telos DreamStack, a project that aims to facilitate faster time to market by providing a ready to go whitelabel apps and a well documented framework for building applications using TELOS and the latest frontend technology for performant user interfaces.
+In December 2019, Blockmatic with the sponsorship of CSX and Bitcash started to work on the Telos DreamStack, a project that aims to facilitate faster time to market by providing a ready to go whitelabel apps and a well documented framework for building applications using Telos and the latest frontend technology for performant user interfaces.
 
 The ultimate goal of DreamStack is to provide a way to quickly jumpstart development removing tech overhead and allowing you to focus on your business model and product features, reducing costs to develop high-quality blockchain apps and functional proofs of concept.
 
@@ -26,9 +26,9 @@ The main objectives of the project are:
 - Promote better user experiences in dapps.
 - Strengthen the developer community.
 
-DreamStack is open source and the code is available at [github.com/telosdreamstack](https://github.com/telosdreamstack). Documentation is being worked on [docs.telosdreamstack.io](https://docs.telosdreamstack.io) and it counts with it’s own [telegram group for support](https://t.me/telosdreamstack). Online webinars, video tutorials, onsite workshops and hackathons will help foster the DreamStack development community.
+DreamStack is open source and the code is available at [github.com/Telosdreamstack](https://github.com/Telosdreamstack). Documentation is being worked on [docs.Telosdreamstack.io](https://docs.Telosdreamstack.io) and it counts with it’s own [telegram group for support](https://t.me/Telosdreamstack). Online webinars, video tutorials, onsite workshops and hackathons will help foster the DreamStack development community.
 
-It focuses in providing everything required to build performant real-time blockchain applications with TELOS and React, featuring application starters for mobile, web and desktop with the following functionalities:
+It focuses in providing everything required to build performant real-time blockchain applications with Telos and React, featuring application starters for mobile, web and desktop with the following functionalities:
 
 - Create TLOS free accounts and profiles.
 - Secure key imports.
@@ -88,7 +88,7 @@ https://chainspector.io/governance/worker-proposals/124
 
 <img width="100%" src="TelosDreamStackFull.svg" />
 
-The TELOS DreamStack features the most efficient technology and standards for building performant JavaScript applications as of today. The technology selection was based on more than 10 years of experience developing applications and collaboration with experts on the different tools of which the framework is composed.
+The Telos DreamStack features the most efficient technology and standards for building performant JavaScript applications as of today. The technology selection was based on more than 10 years of experience developing applications and collaboration with experts on the different tools of which the framework is composed.
 
 Application performance is a critical factor in the success of a project, and a major indicator of software quality. It is even one of the essential criteria that determine user satisfaction. DreamStack makes emphasis on meeting human-centric performance metrics such as Time To Interactive and First Contentful Paint.
 
@@ -106,7 +106,7 @@ These starters are easily customizable / themeable through CSS in JS using Theme
 
 ### GraphQL Engine
 
-DreamStack GraphQL is powered by Hasura GraphQL engine which is kept is sync with the blockchain through a Reactive Demux service built with RXJS data pipelines from EOSIO state sockets. Its open core supports real-time graph subscriptions to account balances, permissions and consume TELOS Decide features.
+DreamStack GraphQL is powered by Hasura GraphQL engine which is kept is sync with the blockchain through a Reactive Demux service built with RXJS data pipelines from EOSIO state sockets. Its open core supports real-time graph subscriptions to account balances, permissions and consume Telos Decide features.
 
 Support for custom contracts can be acheived through whitelisting contracts, tables and actions you want to subscribe to Being open source developers can use the same technology for building custom real-time backends. Producers can potentially offer it as a service.
 
@@ -121,7 +121,7 @@ Key characteristics:
 
 ### GraphQL Explorer
 
-Interactive GraphQL explorer allows developers to explore the TELOS graph and try out their queries and subscriptions before implementing them in code.
+Interactive GraphQL explorer allows developers to explore the Telos graph and try out their queries and subscriptions before implementing them in code.
 
 ### Mobile Starter
 
@@ -133,7 +133,7 @@ Some of the Expo’s more prominent features are:
 - Build service gives you app-store ready binaries and handles certificates, no need for you to touch Xcode or Android Studio.
 - Over-the-air updates let you update your app at any time without the hassle and delays of submitting to the store.
 
-The TELOS DreamStack Mobile starter out-of-the-box is a ready to deploy minimal wallet, fully customizable and extensible that you can use as a base to kickstart your mobile projects. Instructions for deployment automation and app store submission will be provided as well as part of the docs.
+The Telos DreamStack Mobile starter out-of-the-box is a ready to deploy minimal wallet, fully customizable and extensible that you can use as a base to kickstart your mobile projects. Instructions for deployment automation and app store submission will be provided as well as part of the docs.
 
 ### ReactJS Starter
 

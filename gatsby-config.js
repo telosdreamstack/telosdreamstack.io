@@ -3,10 +3,10 @@ module.exports = {
     title: 'Telos DreamStack',
     author: {
       name: 'Blockmatic',
-      summary: 'buidl buidl.',
+      summary: '',
     },
-    description: 'Telos DreamStack website',
-    siteUrl: 'https://telosdreamstack.io/',
+    description: 'The Telos DreamStack Project',
+    siteUrl: 'https://telosdreamstack.io',
     social: {
       twitter: 'telosdreamstack',
     },
