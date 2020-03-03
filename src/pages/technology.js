@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Flex } from 'theme-ui'
+import { jsx, Box, Styled } from 'theme-ui'
 
 import Layout from '../layout'
 import SEO from '../components/seo'
@@ -9,9 +9,10 @@ const Technology = () => (
   <Layout>
     <SEO title="Technology" />
 
-    <Flex id="hero" sx={{ justifyContent: 'center', paddingTop: 3 }}>
+    <Box id="hero" sx={{ textAlign: 'center', justifyContent: 'center' }}>
+    <Styled.h1>Technology</Styled.h1>
       <Diagram height="auto" width="100%" />
-    </Flex>
+    </Box>
   </Layout>
 )
 

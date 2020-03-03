@@ -33,7 +33,7 @@ const IndexPage = () => {
             The Telos DreamStack
           </Styled.h1>
           <p sx={{ textAlign: isWide ? 'right' : 'center', fontSize: '2em' }}>
-            A fullstack development framework for real-time applications.
+            A fullstack development framework for real-time blockchain apps.
           </p>
         </Flex>
       </Flex>

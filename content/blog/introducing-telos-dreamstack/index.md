@@ -1,34 +1,33 @@
 ---
-title: Introducting the Telos DreamStack
+title: Introducing the Telos DreamStack
 date: '2020-03-01'
-description: 'Get faster time to market and better user experiences with a fullstack framework for developing real-time blockchain applications.'
+description: 'Faster time to market and better user experiences with a fullstack framework for developing real-time blockchain applications.'
 author: Gabo Esquivel
-bio: Software Enginer. Founder of blockmatic.io.
+bio: Software Engineer. Founder of blockmatic.io.
 site: https://gaboesquivel.com/bio
 ---
 
 <img src="mobile-starter.png" />
 
-In December 2019, Blockmatic with the sponsorship of CSX and Bitcash started to work on the Telos DreamStack, a project that aims to facilitate faster time to market by providing a ready to go whitelabel apps and a well documented framework for building applications using Telos and the latest frontend technology for performant user interfaces.
+In December 2019, Blockmatic with the sponsorship of CSX and Bitcash started to work on the Telos DreamStack, a project that aims to facilitate faster time to market by providing a ready to go whitelabel apps and a well-documented framework for building applications using Telos and the latest frontend technology for performant user interfaces.
 
 The ultimate goal of DreamStack is to provide a way to quickly jumpstart development removing tech overhead and allowing you to focus on your business model and product features, reducing costs to develop high-quality blockchain apps and functional proofs of concept.
 
 The main objectives of the project are:
 
 - Reduce the time and effort required to launch applications on Telos.
-- Help positition Telos as the place for developing dapps.
+- Help position Telos as the place for developing dapps.
 - Provide reliable real-time graphql endpoints for dapps.
 - Provide best in class dapp starters.
 - Simplify developer on-boarding.
-- Provide better developer experience.
-- Facilitate consistency and maintainability of the applications.
+- Provide a better developer experience.
 - Reduce work duplication and maximize development synergy.
 - Promote better user experiences in dapps.
 - Strengthen the developer community.
 
-DreamStack is open source and the code is available at [github.com/Telosdreamstack](https://github.com/Telosdreamstack). Documentation is being worked on [docs.Telosdreamstack.io](https://docs.Telosdreamstack.io) and it counts with it’s own [telegram group for support](https://t.me/Telosdreamstack). Online webinars, video tutorials, onsite workshops and hackathons will help foster the DreamStack development community.
+DreamStack is open source and the code is available at [github.com/Telosdreamstack](https://github.com/Telosdreamstack). Documentation is being worked on [docs.Telosdreamstack.io](https://docs.Telosdreamstack.io) and it counts with its own [telegram group for support](https://t.me/Telosdreamstack). Online webinars, video tutorials, onsite workshops, and hackathons will help foster the DreamStack development community.
 
-It focuses in providing everything required to build performant real-time blockchain applications with Telos and React, featuring application starters for mobile, web and desktop with the following functionalities:
+It focuses on providing everything required to build performant real-time blockchain applications with Telos and React, featuring application starters for mobile, web and desktop with the following functionalities:
 
 - Create TLOS free accounts and profiles.
 - Secure key imports.
@@ -40,7 +39,7 @@ It focuses in providing everything required to build performant real-time blockc
 
 ## Projects
 
-These projects are currently waiting for DreamStack. We realised all these projects needed the same functionalities so we built the framework.
+These projects are currently waiting for DreamStack. We realized all these projects needed the same functionalities so we built the framework.
 
 <img src="flowkanban.jpg" width="100%">
 
@@ -61,7 +60,7 @@ The Mobile DAC Notifier is a mobile app that allows you to receive notifications
 March 2020:
 
 - Project website.
-- Finalize app starters design.
+- Finalize app starters' design.
 - Reactive demux.
 
 April 2020:
@@ -75,7 +74,7 @@ May 2020:
 - Desktop starter.
 - LiquidLink support.
 - EOSIO signing request support.
-- Start marketing campaign.
+- Start a marketing campaign.
 
 We created two proposals on Telos Works with more detailed information on the reactive demux component and design work.
 
@@ -98,7 +97,7 @@ Software maintainability is defined as the degree to which an application is und
 
 <img src="maintaining.png" />
 
-dApps benefit from sharing a common codebase they all contribute to enhance and extend. The shared guidelines allows developers to avoid the context switching overhead when working on different applications or code bases; and for developers completely new to the technologies it is way easier to start with clear guidelines and starter repos.
+dapps benefit from sharing a common codebase they all contribute to enhance and extend. The shared guidelines allows developers to avoid the context switching overhead when working on different applications or code bases; and for developers completely new to the technologies it is way easier to start with clear guidelines and starter repos.
 
 All the code follows Functional and Declarative style enforced by automated linting and formatting, as well as thoughtful peer reviews. TypeScript is used to validate parameters at compile time allowing us to detect bugs earlier and reduce risk of introducing bugs at run time.
 
@@ -147,7 +146,7 @@ Provides the same functionalities of the ReactJS starter with the ability to do 
 
 ### Desktop Starter
 
-A ready to go ElectronJS desktop dApp boilerplate.This is the technology used by Spotify and Scatter. Instructions for automating compilation for Windows, MacOS and Linux will be provided.
+A ready to go ElectronJS desktop dapp boilerplate. This is the technology used by Spotify and Scatter. Instructions for automating compilation for Windows, MacOS and Linux will be provided.
 
 ## Key Success Metrics
 
@@ -164,7 +163,7 @@ A ready to go ElectronJS desktop dApp boilerplate.This is the technology used by
 
 ### Gabo Esquivel
 
-Senior software engineer and founder of Blockmatic, a company specializing in blockchain applications & crypto assets. He has more than 10 years of experience building JavaScript applications and about 2 years ago decided to focus completely on open blockchain development, specifically EOSIO. He joined EOS Costa Rica Block Producer right before the mainnet launch where we worked for a little more than a year before starting his own venture. He is a contributor to Bitcash, Krown, Emanate as well as being lead organizer of the JavaScript and Blockchain communities in Costa Rica.
+Senior software engineer and founder of Blockmatic, a company specializing in blockchain applications & crypto assets. He has more than 10 years of experience building JavaScript applications and about 2 years ago decided to focus completely on open blockchain development, specifically EOSIO. He joined EOS Costa Rica Block Producer right before the mainnet launch where we worked for a little more than a year before starting his venture. He is a contributor to Bitcash, Krown and Emanate as well as being lead organizer of the JavaScript and Blockchain communities in Costa Rica.
 
 [github.com/gaboesquivel](https://github.com/gaboesquivel) - [linkedin.com/in/gaboesquivel](https://linkedin.com/in/gaboesquivel)
 
@@ -192,19 +191,19 @@ UX Interactive designer making decentralized applications more friendly. Lead UI
 
 [linkedin.com/in/laubits](linkedin.com/in/laubits) - [github.com/laubits](https://github.com/laubits)
 
-## Jeffrey Briceño
+### Jeffrey Briceño
 
 Software developer with experience on several JavaScript Stacks such as MEAN, MERN and JAMStack. He is an active contributor to dBoard.
 
 [linkedin.com/in/jeffbricr](linkedin.com/in/jeffbricr) - [github.com/jeffbricr](https://github.com/jeffbricr)
 
-## Ronny Freites
+### Ronny Freites
 
 Software Engineer with thorough hands-on experience in functional, modern and efficient architecture. He helped to build a React Native mobile app for GoPato, an UberEats competitor in Costa Rica. Ronny has more than 6 years building web and mobile applications in many technologies such as PHP, Javascript, React and React Native.
 
 [github.com/rfreites](https://github.com/rfreites) - [linkedin.com/in/ronnyfreites](linkedin.com/in/ronnyfreites)
 
-## Kevin Villalobos
+### Kevin Villalobos
 
 React and React Native expert. Lead engineer at BoltSource and organizer at React Costa Rica and Costa Rica JS.
 

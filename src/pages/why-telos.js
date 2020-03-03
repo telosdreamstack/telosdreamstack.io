@@ -10,7 +10,7 @@ const WhyTelos = () => (
     <SEO title="Why Telos" />
 
     <Box sx={{ textAlign: 'center' }}>
-      <Styled.h1>Reasons to Launch Telos </Styled.h1>
+      <Styled.h1>Reasons to Launch on Telos </Styled.h1>
       <Work />
     </Box>
   </Layout>

@@ -32,10 +32,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             </p>
           </header>
           <section
-            sx={{
-              textAlign: 'justify',
-              textJustify: 'inter-word',
-            }}
             dangerouslySetInnerHTML={{ __html: post.html }}
           />
           <hr
