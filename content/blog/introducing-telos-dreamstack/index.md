@@ -16,7 +16,7 @@ The ultimate goal of DreamStack is to provide a way to quickly jumpstart develop
 The main objectives of the project are:
 
 - Reduce the time and effort required to launch applications on Telos.
-- Help position Telos as the place for developing dapps.
+- Help position Telos as one of the best networks for dapps.
 - Provide reliable real-time graphql endpoints for dapps.
 - Provide best in class dapp starters.
 - Simplify developer on-boarding.
@@ -97,24 +97,24 @@ Software maintainability is defined as the degree to which an application is und
 
 <img src="maintaining.png" />
 
-dapps benefit from sharing a common codebase they all contribute to enhance and extend. The shared guidelines allows developers to avoid the context switching overhead when working on different applications or code bases; and for developers completely new to the technologies it is way easier to start with clear guidelines and starter repos.
+dapps benefit from sharing a common codebase they all contribute to enhance and extend. The shared guidelines allow developers to avoid the context switching overhead when working on different applications or codebases, and for developers completely new to the technologies it is way easier to start with clear guidelines and starters.
 
 All the code follows Functional and Declarative style enforced by automated linting and formatting, as well as thoughtful peer reviews. TypeScript is used to validate parameters at compile time allowing us to detect bugs earlier and reduce risk of introducing bugs at run time.
 
-These starters are easily customizable / themeable through CSS in JS using ThemeUI and Emotion Mobile. The theme is saved as a JSON object you can customize with your color palette and typography easily.
+These starters are easily customizable/themeable through CSS in JS using ThemeUI and Emotion Mobile. The theme is saved as a JSON object you can customize with your color palette and typography easily.
 
 ### GraphQL Engine
 
 DreamStack GraphQL is powered by Hasura GraphQL engine which is kept is sync with the blockchain through a Reactive Demux service built with RXJS data pipelines from EOSIO state sockets. Its open core supports real-time graph subscriptions to account balances, permissions and consume Telos Decide features.
 
-Support for custom contracts can be acheived through whitelisting contracts, tables and actions you want to subscribe to Being open source developers can use the same technology for building custom real-time backends. Producers can potentially offer it as a service.
+Support for custom contracts can be achieved through whitelisting contracts, tables and actions you want to subscribe to. Being open-source developers can use the same technology for building custom real-time backends. Producers can potentially offer it as a service.
 
 Key characteristics:
 
 - It handles EOSIO micro-forks on the backend.
 - Clients subscribe to state replicas and events rather than db deltas to derive state.
 - It creates an actual graph of your on-chain data you can use to make complex queries.
-- You can hook custom off chain GraphQL resolvers.
+- You can hook custom offchain GraphQL resolvers.
 - You can subscribe to events for notifications and other actions.
 - It allows complex and efficient queries and subscriptions.
 
@@ -151,10 +151,10 @@ A ready to go ElectronJS desktop dapp boilerplate. This is the technology used b
 ## Key Success Metrics
 
 - Developers should be able to deploy a working project in a day.
-- Developers should be to test functional proof of concepts in a week timeframe.
+- Developers should be to test functional proof of concepts in a week's timeframe.
 - Companies should be able to find capable developers in a matter of days.
 - New applications should have high user-centric performance metrics by default.
-- Amount open github issues should be low and get responses in less than a week.
+- The amount of open GitHub issues should be low and devs should get responses in less than a week.
 - Response time in telegram support should be fast. ( same day ).
 
 ## Dream Team
@@ -163,7 +163,7 @@ A ready to go ElectronJS desktop dapp boilerplate. This is the technology used b
 
 ### Gabo Esquivel
 
-Senior software engineer and founder of Blockmatic, a company specializing in blockchain applications & crypto assets. He has more than 10 years of experience building JavaScript applications and about 2 years ago decided to focus completely on open blockchain development, specifically EOSIO. He joined EOS Costa Rica Block Producer right before the mainnet launch where we worked for a little more than a year before starting his venture. He is a contributor to Bitcash, Krown and Emanate as well as being lead organizer of the JavaScript and Blockchain communities in Costa Rica.
+Senior software engineer and founder of Blockmatic, a company specializing in blockchain applications & crypto assets. He has more than 10 years of experience building JavaScript applications and about 2 years ago decided to focus completely on open blockchain development, specifically EOSIO. He joined EOS Costa Rica Block Producer right before the mainnet launch where we worked for a little more than a year before starting his venture. He is also the lead organizer of the JavaScript and Blockchain communities in Costa Rica.
 
 [github.com/gaboesquivel](https://github.com/gaboesquivel) - [linkedin.com/in/gaboesquivel](https://linkedin.com/in/gaboesquivel)
 
