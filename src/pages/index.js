@@ -10,7 +10,7 @@ const IndexPage = () => {
   const isWide = useMedia({ minWidth: '650px' }, false)
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="DreamStack" />
 
       <Flex sx={{ flexDirection: isWide ? 'row' : 'column', paddingTop: isWide ? 0 : 2}}>
 

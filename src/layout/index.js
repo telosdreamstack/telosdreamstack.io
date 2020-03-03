@@ -8,14 +8,9 @@ import Helmet from 'react-helmet'
 
 const Layout = ({ children }) => (
   <React.Fragment>
-    <Helmet
-      meta={[
-        {
-          property: 'og:image',
-          content: 'https://telosdreamstack.io/images/telosdreamstack-logo.png',
-        },
-      ]}
-    />
+    <Helmet>
+      <meta property="og:image" content="https://telosdreamstack.io/images/telosdreamstack-logo.png" />
+    </Helmet>
     <Global
       styles={theme => {
         return css`
