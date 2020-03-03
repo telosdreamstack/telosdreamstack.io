@@ -154,7 +154,8 @@ A ready to go ElectronJS desktop dapp boilerplate. This is the technology used b
 - Developers should be to test functional proof of concepts in a week's timeframe.
 - Companies should be able to find capable developers in a matter of days.
 - New applications should have high user-centric performance metrics by default.
-- The amount of open GitHub issues should be low and devs should get responses in less than a week.
+- The amount of open GitHub issues should be very low.
+- Developers should get responses on Github in less than a week.
 - Response time in telegram support should be fast. ( same day ).
 
 ## Dream Team
