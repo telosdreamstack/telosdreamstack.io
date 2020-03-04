@@ -202,7 +202,7 @@ Software developer with experience on several JavaScript Stacks such as MEAN, ME
 
 Software Engineer with thorough hands-on experience in functional, modern and efficient architecture. He helped to build a React Native mobile app for GoPato, an UberEats competitor in Costa Rica. Ronny has more than 6 years building web and mobile applications in many technologies such as PHP, Javascript, React and React Native.
 
-[github.com/rfreites](https://github.com/rfreites) - [linkedin.com/in/ronnyfreites](linkedin.com/in/ronnyfreites)
+[github.com/ronnyiscoding](https://github.com/ronnyiscoding) - [linkedin.com/in/ronnyfreites](https://www.linkedin.com/in/ronnyfreites/ )
 
 ### Kevin Villalobos
 
