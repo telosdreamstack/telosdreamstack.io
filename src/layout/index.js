@@ -33,6 +33,9 @@ const Layout = ({ children }) => (
             color: #55c3b3 !important;
             text-decoration: none;
           }
+          .wide-image .gatsby-resp-image-wrapper{
+            min-width: 100%;
+          }
         `
       }}
     />
